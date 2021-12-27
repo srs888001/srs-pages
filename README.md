@@ -27,7 +27,6 @@ $ yarn add srs-pages
 ```javascript
 const srsPages = require('srs-pages')
 const result = srsPages('w')
-// result => 'w@zce.me'
 ```
 
 ## API
@@ -40,18 +39,6 @@ const result = srsPages('w')
 
 - Type: `string`
 - Details: name string
-
-#### options
-
-##### host
-
-- Type: `string`
-- Details: host string
-- Default: `'zce.me'`
-
-## Related
-
-- [zce/caz](https://github.com/zce/caz) - A simple yet powerful template-based Scaffolding tools.
 
 ## Contributing
 
