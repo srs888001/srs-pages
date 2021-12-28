@@ -1,0 +1,54 @@
+{
+  "name": "srs-pages",
+  "version": "0.1.0",
+  "description": "static web app workflow",
+  "keywords": [
+    "srs-pages",
+    "srs"
+  ],
+  "repository": "srs/srs-pages",
+  "license": "MIT",
+  "author": "Jerry <srs_sky@163.com> (https://github.com/srs888001/)",
+  "main": "lib/index.js",
+  "bin": "bin/srs-pages.js",
+  "files": [
+    "lib",
+    "bin"
+  ],
+  "scripts": {
+    "lint": "standard --fix"
+  },
+  "dependencies": {
+    "@babel/core": "^7.16.5",
+    "@babel/preset-env": "^7.16.5",
+    "browser-sync": "2.26.7",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-if": "^3.0.0",
+    "gulp-imagemin": "7.1.0",
+    "gulp-load-plugins": "^2.0.7",
+    "gulp-sass": "^5.0.0",
+    "gulp-swig": "^0.9.1",
+    "gulp-uglify": "^3.0.2",
+    "gulp-useref": "^5.0.0",
+    "sass": "^1.45.1",
+    "csscomb": "^4.3.0",
+    "gulp-gh-pages": "^0.5.4",
+    "gulp-plumber": "^1.2.1",
+    "gulp-size": "^4.0.1",
+    "minimist": "^1.2.5",
+    "standard": "^16.0.4"
+  },
+  "devDependencies": {
+
+  },
+  "engines": {
+    "node": ">=12"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  }
+}
